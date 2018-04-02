@@ -4,7 +4,7 @@ var measureText = function(font) {
 	this.ctx.font = font;
 }
 measureText.prototype.setFont = function(font){
-	this.font = font;
+	this.ctx.font = font;
 }
 measureText.prototype.width = function(text){
 	return this.ctx.measureText(text).width;
