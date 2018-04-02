@@ -1,0 +1,24 @@
+{
+  "name": "measuretext",
+  "version": "1.0.0",
+  "description": "measure text width",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heisback/measureText.git"
+  },
+  "keywords": [
+    "measure",
+    "text",
+    "width"
+  ],
+  "author": "heisback",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heisback/measureText/issues"
+  },
+  "homepage": "https://github.com/heisback/measureText#readme"
+}
