@@ -1,5 +1,5 @@
 {
-  "name": "measuretext",
+  "name": "text-measure",
   "version": "1.0.0",
   "description": "measure text width",
   "main": "index.js",
