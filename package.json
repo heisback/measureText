@@ -1,6 +1,6 @@
 {
   "name": "text-measure",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "measure text width",
   "main": "index.js",
   "scripts": {

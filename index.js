@@ -27,6 +27,6 @@ measureText.prototype.cutByWidth = function(text, aimwidth, ellipsis){
 	}else{
 		while(this.width( text.substring(0, -len) ) > cutw){};		
 	}
-	return `${text.substring(0,len)}${ellipsis}`;
+	return text.substring(0,len)+ellipsis;
 }
 module.exports = measureText;
