@@ -1,5 +1,5 @@
 var measureText = function(font) {
-	let canvas = document.createElement('canvas');
+	var canvas = document.createElement('canvas');
 	this.ctx = canvas.getContext('2d');
 	this.ctx.font = font;
 }
@@ -16,12 +16,12 @@ measureText.prototype.cutByWidth = function(text, aimwidth, ellipsis){
 	if(!text || !aimwidth || aimwidth <= 0 ){
 		return '';
 	}
-	let w = this.width(text);
-	let ellipsisw = this.width(ellipsis||'');
-	let cutw = aimwidth - ellipsisw;
-	let avgw = w/text.length;
-	let len = parseInt(cutw / avgw);
-	let overflow = this.width( text.substring(0, len) ) > cutw; 
+	var w = this.width(text);
+	var ellipsisw = this.width(ellipsis||'');
+	var cutw = aimwidth - ellipsisw;
+	var avgw = w/text.length;
+	var len = parseInt(cutw / avgw);
+	var overflow = this.width( text.substring(0, len) ) > cutw; 
 	if(overflow){
 		while(this.width( text.substring(0, --len) ) > cutw){};		
 	}else{
