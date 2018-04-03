@@ -4,6 +4,12 @@
 $ npm install --save text-measure
 ```
 
+## Notice
+```
+only browser environment which support canvas(仅适用于支持html5 canvas的浏览器环境)
+```
+
+
 ## Usage
 
 ```
